@@ -1,0 +1,16 @@
+Create a new folder .
+
+Download the source code to that folder. [Do not rename the file]
+
+Download webdriver for your default browser [check version of your browser before downloading] and add it to your system PATH 
+or place it along with the source code file.
+
+You can find webdrivers for your browser here:
+  Chrome : https://chromedriver.chromium.org/downloads
+  Edge : https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+[The provided code supports for chrome and Edge driver. You can use your default browser webdriver by modifying line.125 
+    <browser = webdriver.Chrome()>  or <browser = webdriver.Edge()  or  <browser = webdriver.****()> (your browser name)
+
+WARNING : Run this file in a new empty folder ONLY as it might delete your personal files if used elsewhere. Be sure of path you are executing this file in ..
+
+
